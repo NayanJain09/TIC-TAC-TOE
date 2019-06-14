@@ -11,14 +11,14 @@ def display():
         print("-------------")
     
 def check():
-    if a[0][0]==a[0][1] and a[0][0]==a[0][2]:
+    if a[0][0]==a[0][1] and a[0][0]==a[0][2] and a[0][0]!='':
         if ((a[0][0])==t1):
             print("Player1 won")
         else:
             print("Player2 won\n")
         exit(0)
  
-    elif(a[0][0]==a[1][1] and a[0][0]==a[2][2]):
+    elif(a[0][0]==a[1][1] and a[0][0]==a[2][2] and a[0][0]!=''):
        
           if ((a[0][0])==t1):
             print("Player1 won")
@@ -26,42 +26,42 @@ def check():
             print("Player2 won")
           exit(0)
         
-    elif(a[0][0]==a[1][0] and a[0][0]==a[2][0]):
+    elif(a[0][0]==a[1][0] and a[0][0]==a[2][0] and a[0][0]!=''):
           if ((a[0][0])==t1):
             print("Player1 won")
           else:
             print("Player2 won")
           exit(0)
         
-    elif(a[1][0]==a[1][1] and a[1][0]==a[1][2]):
+    elif(a[1][0]==a[1][1] and a[1][0]==a[1][2] and a[1][0]!=''):
           if ((a[1][0])==t1):
             print("Player1 won")
           else:
             print("Player2 won")
           exit(0)
         
-    elif(a[2][0]==a[2][1] and a[2][0]==a[2][2]):
+    elif(a[2][0]==a[2][1] and a[2][0]==a[2][2] and a[2][0]!=''):
           if ((a[2][0])==t1):
             print("Player1 won")
           else:
             print("Player2 won")
           exit(0)
         
-    elif(a[0][1]==a[1][1] and a[0][1]==a[2][1]):
+    elif(a[0][1]==a[1][1] and a[0][1]==a[2][1] and a[0][1]!=''):
           if ((a[0][1])==t1):
             print("Player1 won")
           else:
             print("Player2 won")
           exit(0)
     
-    elif(a[0][2]==a[1][2] and a[0][2]==a[2][2]):
+    elif(a[0][2]==a[1][2] and a[0][2]==a[2][2] and a[0][2]!=''):
           if ((a[0][2])==t1):
             print("Player1 won")
           else:
             print("Player2 won")
           exit(0)
 
-    elif(a[0][2]==a[1][1] and a[0][2]==a[2][0]):
+    elif(a[0][2]==a[1][1] and a[0][2]==a[2][0] and a[0][2]!=''):
           if ((a[0][2])==t1):
             print("Player1 won")
           else:
